@@ -17,7 +17,7 @@ public class Problem7 {
 		System.out.println("[숫자맞추기게임 시작]");
 		System.out.println("================");
 
-		int random = (int) (Math.random() * 100+1);
+		int random = (int) (Math.random() * 100+1); //(int) 정수형으로 변환-> Math.random() * 100 = 0~99까지 의미해서 뒤에 +1을 해줘서 1~100까지!
 
 		Scanner sc = new Scanner(System.in);
 

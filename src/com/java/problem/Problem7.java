@@ -38,7 +38,7 @@ public class Problem7 {
 				}
 			} 
 			catch (InputMismatchException ime) {
-				System.out.println("숫자만 입력해주세요.");
+				System.out.println("숫자만 입력!");
 				break;
 			}
 		}
